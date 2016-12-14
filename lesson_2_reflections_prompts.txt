@@ -1,0 +1,18 @@
+一：初始化版本库会发生什么情况？为什么需要这么做
+1.1git init 新建一个版本库。is -a查看里面是否有文本文档。
+1.2git status On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        cake.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+// cake.txt 是新建的文本文档，为了去确定版本库是否是一个完整的库本
+1.3初始化版本库是为了清理版本库类似于格式化是为了改变磁盘结构更好的输入信息
+二：暂存区与工作目录的版本库有个不同？他具有什么价值
+2.1.1暂存只是临时存放。并不是保存在工作目录下面。
+2.1.2工作目录是确定保存的文件。
+2.2.1备忘？防止出错造成无法挽回的损失？减少版本库的内存？少减少手动保存的次数》？
